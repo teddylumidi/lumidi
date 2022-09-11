@@ -16,9 +16,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
-    padding-left:8%;
-    padding-right: 8%;
+    padding-top: 15px;
+    padding-left:5%;
+    padding-right:5%;
 }
 .logo{
     color: white;
@@ -198,7 +198,7 @@ button:hover{
     color: #f9004d;
 }
 h5{
-    color: white;
+    color: #f9004d;
     font-size: 23px;
     margin-bottom: 15px;
 }
@@ -207,6 +207,7 @@ h5{
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    
 }
 .card .button{
     background-color: #f9004d;
