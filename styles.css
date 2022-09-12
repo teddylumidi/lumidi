@@ -161,6 +161,12 @@ button:hover{
     cursor: pointer;
 }
 
+.blog{
+    background:#101010;
+    width: 100%;
+    padding: 10px 0px;
+}
+
 .service{
     background:#101010;
     width: 100%;
