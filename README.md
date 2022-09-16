@@ -9,4 +9,4 @@ Visit - [ https://lumidi.netlify.app/ ] (https://lumidi.netlify.app/)
 Deployed with
 
 - Netlify
-- Google Pages
+- GitHub Pages
