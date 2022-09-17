@@ -205,13 +205,13 @@ button:hover{
 }
 h5{
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 .pra p{
     color: #fcfc;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 23px;
     margin-bottom: 25px;
 }
 .card .button{
@@ -221,7 +221,7 @@ h5{
     border: 2px solid transparent;
     font-weight: bold;
     padding: 9px 22px;
-    border-radius: 30px;
+    border-radius: 20px;
     transition: .4s;
 }
 .card .button:hover{
