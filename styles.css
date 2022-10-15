@@ -129,7 +129,7 @@ h4{
 }
 
  /*Small devices (landscape phones, 576px and up)*/
- @media (max-width: 600px) {
+ @media (max-width: 576px) {
     #about-img {
         grid-column: 1/3;
         grid-row: 1/2;
@@ -204,7 +204,7 @@ button:hover{
 }
 
  /*Small devices (landscape phones, 576px and up)*/
- @media (max-width: 600px) { 
+ @media (max-width: 576px) { 
     .box {
         display: grid;
         grid-auto-columns: auto;
