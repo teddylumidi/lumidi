@@ -128,6 +128,19 @@ h4{
     max-width: 95%;
 }
 
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (max-width: 576px) {
+    #about-img {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+
+    .about-text {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+ }
+
 .about-text h2{
     color: white;
     font-size: 4rem;
@@ -189,6 +202,15 @@ button:hover{
     align-items: center;
     min-height: 400px;
 }
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (max-width: 576px) { 
+    .box {
+        display: grid;
+        grid-auto-columns: auto;
+    }
+
+ }
 
 .card{
     height: auto;
@@ -324,7 +346,7 @@ footer p:nth-child(2){
     font-size: 14px;
 }
 
-/*Media Queries*/
+ /*Media Queries*/
 
 @media only screen and (max-width: 600px) {
     body {
