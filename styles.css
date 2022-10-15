@@ -355,4 +355,4 @@ footer p:nth-child(2){
   }
 
 /*Media Queries Navbar*/
-@media only screen and (max-width: 600px) { .navbar { display: none; } }
+@media only screen and (max-width: 600px) { .navbar { display: auto; } }
