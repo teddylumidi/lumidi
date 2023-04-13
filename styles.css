@@ -1,4 +1,3 @@
-
 * {
 padding: 0;
 margin: 0;
@@ -18,9 +17,7 @@ nav {
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding-top: 20px;
-padding-left: 8%;
-padding-right: 8%;
+padding: 20px 8%;
 }
 
 #logo {
@@ -30,8 +27,8 @@ text-decoration: none;
 }
 
 .custom-toggler.navbar-toggler {
-border: 1px solid rgb(249, 0, 77);
-background-color: rgb(249, 0, 77);
+border: 1px solid #f9004d;
+background-color: #f9004d;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -59,6 +56,7 @@ text-transform: capitalize;
 color: #f9004d;
 transition: 0.4s;
 }
+
 .btn {
 background-color: #f9004d;
 color: white;
@@ -79,10 +77,10 @@ position: absolute;
 top: 50%;
 transform: translateY(-50%);
 }
-    
+
 h1 {
 color: white;
-margin: 20px 0px 20px;
+margin: 20px 0;
 font-size: 75px;
 }
 
@@ -93,13 +91,14 @@ margin-bottom: 30px;
 }
 
 h4 {
-color: #fcfc;
+color: #fcfcfc;
 letter-spacing: 2px;
 font-size: 20px;
 }
+
 .newsletter form {
 width: 380px;
-max-width: auto;
+max-width: 100%;
 position: relative;
 margin-bottom: 50px;
 margin-left: 60px;
@@ -123,10 +122,10 @@ padding: 10px 30px;
 border-radius: 30px;
 background-color: #f9004d;
 color: white;
-box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+box-shadow: 0 0 5px #000, 0 0 15px #858585;
 top: 6px;
 right: 6px;
-}
+} 
 .about {
 width: 100%;
 padding: 100px 0px;
@@ -165,42 +164,45 @@ margin: 30px 0;
 }
 .about-text h5 {
 color: white;
-letter-spacing: 2px;
 font-size: 13px;
+letter-spacing: 2px;
 margin-bottom: 25px;
 text-transform: capitalize;
 }
+
 .about-text p {
 color: #fff;
+font-size: 18px;
 letter-spacing: 1px;
 line-height: 28px;
-font-size: 18px;
 margin-bottom: 45px;
 }
-button{
+button {
 background-color: #f9004d;
-color: white;
-text-decoration: none;
 border: 2px solid transparent;
+border-radius: 30px;
+color: white;
 font-weight: bold;
 padding: 13px 30px;
-border-radius: 30px;
+text-decoration: none;
 transition: 0.4s;
 }
-button:hover{
+
+button:hover {
 background-color: transparent;
 border: 2px solid #f9004d;
 cursor: pointer;
-}
-.blog{
-background: #101010;
+} 
+.blog {
+background-color: #101010;
+padding: 10px 0;
 width: 100%;
-padding: 10px 0px;
-}    
+}
+
 .service {
 background-color: #101010;
-width: 100%;
 padding: 10px 0;
+width: 100%;
 }
 
 .title h2 {
@@ -208,75 +210,73 @@ color: white;
 font-size: 4rem;
 margin: 30px auto;
 text-align: center;
-}
-
+}   
 .box {
+align-items: center;
 display: flex;
 justify-content: center;
-align-items: center;
 min-height: 400px;
 }
-
-/*Small devices (landscape phones, 576px and up)*/
+/* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
-.box {
-display: grid;
-grid-template-columns: auto;
-}
-}
-.card{
-height: auto;
-width: 335px;
-padding: 20px 35px;
-background: #191919;
-border-radius: 20px;
-margin: 15px;
-position: relative;
-overflow: hidden;
-text-align: center;
-}
-
-.card i{
-font-size: 40px;
-display: block;
-text-align: center;
-margin: 25px 0px;
-color: #f9004d;
-}
-
-.card h5{
-color: white;
-font-size: 25px;
-margin-bottom: 15px;
-font-weight: 500;
-}
-
-.pra p {
-color: #fcfcfc;
-font-size: 1.1em;
-line-height: 23px;
-margin-bottom: 15px;
-}
-
-.card .button {
-background-color: #f9004d;
-color: white;
-text-decoration: none;
-border: 2px solid transparent;
-font-weight: bold;
-font-size: 0.85em;
-padding: 9px 22px;
-border-radius: 20px;
-transition: 0.4s;
-}
-
-.card .button:hover {
-background-color: transparent;
-border: 2px solid #f9004d;
-cursor: pointer;
-}
-
-     
+    .box {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+  
+  .card {
+    height: auto;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .card i {
+    font-size: 40px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+  }
+  
+  .card h5 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+  
+  .card p {
+    color: #fcfcfc;
+    font-size: 1.1em;
+    line-height: 23px;
+    margin-bottom: 15px;
+  }
+  
+  .card .button {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 0.85em;
+    padding: 9px 22px;
+    border-radius: 20px;
+    transition: 0.4s;
+  }
+  
+  .card .button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+  }
+  
 .contact-me {
 height: 290px;
 background: #191919;
