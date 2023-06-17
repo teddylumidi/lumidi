@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
     <meta name="description" content="lumidi website.">
     <title>Teddy Lumidi Referral Ambassador</title>
     <!-- Bootstrap CSS-->
@@ -19,9 +19,19 @@
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-KHDYR7PQ7X');
+
+        // Update this code to reflect your referral code
+        const referralCode = 'referral-code-here';
+
+        gtag('event', 'referral', {
+            'event_category': 'Referral Ambassador',
+            'event_label': referralCode,
+        });
     </script>
 </head>
 <body>
+
+
 <!----hero Section start--->
 <div class="hero">
     <nav class="navbar navbar-expand-lg container-xxl">
